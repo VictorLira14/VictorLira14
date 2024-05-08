@@ -43,9 +43,9 @@ nav a:hover {
 	display: inline-block;
 	text-align: center;
 	width: 30%;
-	vertical-align: top;
-	margin: 0 1.5%;
-	padding: 30px 20px;
+	vertical-align:top;
+	margin: 1 1.5%;
+	padding: 20px 20px;
 	box-sizing: border-box;
 	border: 2px solid #000000;
 	border-radius: 10px;
@@ -69,10 +69,12 @@ nav a:hover {
 }
 
 .produto-descricao {
+	color: rgb(0, 0, 0);
 	font-size: 18px;
 }
 
 .produto-preco {
+	color: rgb(0, 0, 0);
 	font-size: 22px;
 	font-weight: bold;
 	margin-top: 10px;
@@ -82,7 +84,8 @@ nav a:hover {
 	text-align: center;
 	background: url("bg.jpg");
 	padding: 40px 0;
-}
+}	vertical-align:middle
+
 
 .copyright {
 	color: #002aff;
